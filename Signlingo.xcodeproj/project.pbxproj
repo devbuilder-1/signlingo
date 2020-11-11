@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1FA6C0FE255CA1DD0026FBB1 /* SignlingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */; };
-		1FA6C100255CA1DD0026FBB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */; };
 		1FA6C102255CA1DE0026FBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */; };
 		1FA6C105255CA1DE0026FBB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6C104255CA1DE0026FBB1 /* Preview Assets.xcassets */; };
 		1FA6C110255CA1DE0026FBB1 /* SignlingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C10F255CA1DE0026FBB1 /* SignlingoTests.swift */; };
 		1FA6C11B255CA1DE0026FBB1 /* SignlingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C11A255CA1DE0026FBB1 /* SignlingoUITests.swift */; };
+		1FA6C12F255CA73F0026FBB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C12E255CA73F0026FBB1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		1FA6C0FA255CA1DD0026FBB1 /* Signlingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signlingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlingoApp.swift; sourceTree = "<group>"; };
-		1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA6C104255CA1DE0026FBB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FA6C106255CA1DE0026FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		1FA6C116255CA1DE0026FBB1 /* SignlingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignlingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6C11A255CA1DE0026FBB1 /* SignlingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlingoUITests.swift; sourceTree = "<group>"; };
 		1FA6C11C255CA1DE0026FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA6C12E255CA73F0026FBB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */,
-				1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */,
+				1FA6C12E255CA73F0026FBB1 /* ContentView.swift */,
 				1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */,
 				1FA6C106255CA1DE0026FBB1 /* Info.plist */,
 				1FA6C103255CA1DE0026FBB1 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA6C100255CA1DD0026FBB1 /* ContentView.swift in Sources */,
+				1FA6C12F255CA73F0026FBB1 /* ContentView.swift in Sources */,
 				1FA6C0FE255CA1DD0026FBB1 /* SignlingoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
