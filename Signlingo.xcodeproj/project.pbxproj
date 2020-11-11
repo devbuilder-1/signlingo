@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA6C0FE255CA1DD0026FBB1 /* SignlingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */; };
+		1FA6C100255CA1DD0026FBB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */; };
+		1FA6C102255CA1DE0026FBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */; };
+		1FA6C105255CA1DE0026FBB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6C104255CA1DE0026FBB1 /* Preview Assets.xcassets */; };
+		1FA6C110255CA1DE0026FBB1 /* SignlingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C10F255CA1DE0026FBB1 /* SignlingoTests.swift */; };
+		1FA6C11B255CA1DE0026FBB1 /* SignlingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C11A255CA1DE0026FBB1 /* SignlingoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA6C10C255CA1DE0026FBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA6C0F2255CA1DD0026FBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA6C0F9255CA1DD0026FBB1;
+			remoteInfo = Signlingo;
+		};
+		1FA6C117255CA1DE0026FBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA6C0F2255CA1DD0026FBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA6C0F9255CA1DD0026FBB1;
+			remoteInfo = Signlingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA6C0FA255CA1DD0026FBB1 /* Signlingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signlingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlingoApp.swift; sourceTree = "<group>"; };
+		1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FA6C104255CA1DE0026FBB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FA6C106255CA1DE0026FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA6C10B255CA1DE0026FBB1 /* SignlingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignlingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6C10F255CA1DE0026FBB1 /* SignlingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlingoTests.swift; sourceTree = "<group>"; };
+		1FA6C111255CA1DE0026FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA6C116255CA1DE0026FBB1 /* SignlingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignlingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6C11A255CA1DE0026FBB1 /* SignlingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlingoUITests.swift; sourceTree = "<group>"; };
+		1FA6C11C255CA1DE0026FBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA6C0F7255CA1DD0026FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C108255CA1DE0026FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C113255CA1DE0026FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA6C0F1255CA1DD0026FBB1 = {
+			isa = PBXGroup;
+			children = (
+				1FA6C0FC255CA1DD0026FBB1 /* Signlingo */,
+				1FA6C10E255CA1DE0026FBB1 /* SignlingoTests */,
+				1FA6C119255CA1DE0026FBB1 /* SignlingoUITests */,
+				1FA6C0FB255CA1DD0026FBB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA6C0FB255CA1DD0026FBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6C0FA255CA1DD0026FBB1 /* Signlingo.app */,
+				1FA6C10B255CA1DE0026FBB1 /* SignlingoTests.xctest */,
+				1FA6C116255CA1DE0026FBB1 /* SignlingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA6C0FC255CA1DD0026FBB1 /* Signlingo */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6C0FD255CA1DD0026FBB1 /* SignlingoApp.swift */,
+				1FA6C0FF255CA1DD0026FBB1 /* ContentView.swift */,
+				1FA6C101255CA1DE0026FBB1 /* Assets.xcassets */,
+				1FA6C106255CA1DE0026FBB1 /* Info.plist */,
+				1FA6C103255CA1DE0026FBB1 /* Preview Content */,
+			);
+			path = Signlingo;
+			sourceTree = "<group>";
+		};
+		1FA6C103255CA1DE0026FBB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6C104255CA1DE0026FBB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FA6C10E255CA1DE0026FBB1 /* SignlingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6C10F255CA1DE0026FBB1 /* SignlingoTests.swift */,
+				1FA6C111255CA1DE0026FBB1 /* Info.plist */,
+			);
+			path = SignlingoTests;
+			sourceTree = "<group>";
+		};
+		1FA6C119255CA1DE0026FBB1 /* SignlingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6C11A255CA1DE0026FBB1 /* SignlingoUITests.swift */,
+				1FA6C11C255CA1DE0026FBB1 /* Info.plist */,
+			);
+			path = SignlingoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA6C0F9255CA1DD0026FBB1 /* Signlingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6C11F255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "Signlingo" */;
+			buildPhases = (
+				1FA6C0F6255CA1DD0026FBB1 /* Sources */,
+				1FA6C0F7255CA1DD0026FBB1 /* Frameworks */,
+				1FA6C0F8255CA1DD0026FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signlingo;
+			productName = Signlingo;
+			productReference = 1FA6C0FA255CA1DD0026FBB1 /* Signlingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA6C10A255CA1DE0026FBB1 /* SignlingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6C122255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "SignlingoTests" */;
+			buildPhases = (
+				1FA6C107255CA1DE0026FBB1 /* Sources */,
+				1FA6C108255CA1DE0026FBB1 /* Frameworks */,
+				1FA6C109255CA1DE0026FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA6C10D255CA1DE0026FBB1 /* PBXTargetDependency */,
+			);
+			name = SignlingoTests;
+			productName = SignlingoTests;
+			productReference = 1FA6C10B255CA1DE0026FBB1 /* SignlingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FA6C115255CA1DE0026FBB1 /* SignlingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6C125255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "SignlingoUITests" */;
+			buildPhases = (
+				1FA6C112255CA1DE0026FBB1 /* Sources */,
+				1FA6C113255CA1DE0026FBB1 /* Frameworks */,
+				1FA6C114255CA1DE0026FBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA6C118255CA1DE0026FBB1 /* PBXTargetDependency */,
+			);
+			name = SignlingoUITests;
+			productName = SignlingoUITests;
+			productReference = 1FA6C116255CA1DE0026FBB1 /* SignlingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA6C0F2255CA1DD0026FBB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1FA6C0F9255CA1DD0026FBB1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1FA6C10A255CA1DE0026FBB1 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1FA6C0F9255CA1DD0026FBB1;
+					};
+					1FA6C115255CA1DE0026FBB1 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1FA6C0F9255CA1DD0026FBB1;
+					};
+				};
+			};
+			buildConfigurationList = 1FA6C0F5255CA1DD0026FBB1 /* Build configuration list for PBXProject "Signlingo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA6C0F1255CA1DD0026FBB1;
+			productRefGroup = 1FA6C0FB255CA1DD0026FBB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA6C0F9255CA1DD0026FBB1 /* Signlingo */,
+				1FA6C10A255CA1DE0026FBB1 /* SignlingoTests */,
+				1FA6C115255CA1DE0026FBB1 /* SignlingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA6C0F8255CA1DD0026FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6C105255CA1DE0026FBB1 /* Preview Assets.xcassets in Resources */,
+				1FA6C102255CA1DE0026FBB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C109255CA1DE0026FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C114255CA1DE0026FBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA6C0F6255CA1DD0026FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6C100255CA1DD0026FBB1 /* ContentView.swift in Sources */,
+				1FA6C0FE255CA1DD0026FBB1 /* SignlingoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C107255CA1DE0026FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6C110255CA1DE0026FBB1 /* SignlingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6C112255CA1DE0026FBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6C11B255CA1DE0026FBB1 /* SignlingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA6C10D255CA1DE0026FBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA6C0F9255CA1DD0026FBB1 /* Signlingo */;
+			targetProxy = 1FA6C10C255CA1DE0026FBB1 /* PBXContainerItemProxy */;
+		};
+		1FA6C118255CA1DE0026FBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA6C0F9255CA1DD0026FBB1 /* Signlingo */;
+			targetProxy = 1FA6C117255CA1DE0026FBB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FA6C11D255CA1DE0026FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FA6C11E255CA1DE0026FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA6C120255CA1DE0026FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Signlingo/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Signlingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.Signlingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA6C121255CA1DE0026FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Signlingo/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Signlingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.Signlingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FA6C123255CA1DE0026FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				INFOPLIST_FILE = SignlingoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.SignlingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signlingo.app/Signlingo";
+			};
+			name = Debug;
+		};
+		1FA6C124255CA1DE0026FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				INFOPLIST_FILE = SignlingoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.SignlingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signlingo.app/Signlingo";
+			};
+			name = Release;
+		};
+		1FA6C126255CA1DE0026FBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				INFOPLIST_FILE = SignlingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.SignlingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signlingo;
+			};
+			name = Debug;
+		};
+		1FA6C127255CA1DE0026FBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR7PBJ7GQW;
+				INFOPLIST_FILE = SignlingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.SignlingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signlingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA6C0F5255CA1DD0026FBB1 /* Build configuration list for PBXProject "Signlingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6C11D255CA1DE0026FBB1 /* Debug */,
+				1FA6C11E255CA1DE0026FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6C11F255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "Signlingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6C120255CA1DE0026FBB1 /* Debug */,
+				1FA6C121255CA1DE0026FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6C122255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "SignlingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6C123255CA1DE0026FBB1 /* Debug */,
+				1FA6C124255CA1DE0026FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6C125255CA1DE0026FBB1 /* Build configuration list for PBXNativeTarget "SignlingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6C126255CA1DE0026FBB1 /* Debug */,
+				1FA6C127255CA1DE0026FBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA6C0F2255CA1DD0026FBB1 /* Project object */;
+}
