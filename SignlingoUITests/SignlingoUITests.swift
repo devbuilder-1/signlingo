@@ -1,9 +1,4 @@
-//
-//  SignlingoUITests.swift
-//  SignlingoUITests
-//
-//  Created by Prithiv Dev on 11/11/20.
-//
+
 
 import XCTest
 
